@@ -1,0 +1,161 @@
+body {
+    background-color: #0f0f0c !important;
+  }
+
+.mini-text {
+    color: #5a5d59;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+}
+ 
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link::after {
+  content: '' !important;
+  display: block !important;
+  width: 0 !important;
+  height: 2px !important;
+  background: white !important;
+  transition: width .3s !important;
+}
+.nav-link:hover::after {
+  width: 100% !important;
+  transition: width .4s !important;
+}
+
+.boxBg {
+    background-color: #141413;
+}
+  
+.fontColorum {
+    color: #5a5d59;
+    font-size: 0.9rem;
+}
+  
+.iconum {
+    color: rgba(90, 93, 89, .4);
+    font-size: 2.3rem;
+    transition-duration: 0.2s;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+}
+  
+.iconum:hover {
+    color: rgba(90, 93, 89, .6);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.countCards{
+  margin-left: -0.8rem;
+  transition-duration: 0.5s;
+  background-image: url("./section/images/matrushka.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.countCards:hover{
+    transform: translateY(-10px);
+}
+.footerA a{
+    text-decoration: none;
+    color: #323331;
+}
+.urlSite{
+    color: rgb(20, 65, 126);
+
+    text-decoration: none;
+}
+.urlSite:hover{
+    color: rgb(20, 65, 126);
+}
+
+.iconContact{
+    background-color: #292826;
+    backdrop-filter: blur(100px);
+    transition-duration: 0.4s;
+}
+.iconContact:hover{
+    transform: translateY(3px);
+}
+
+@media screen and (max-width:767px) {
+    .width100{
+        width: 100% !important;
+        margin-top: 1.5rem !important;
+    }
+    .width100 img{
+        width: 60% !important;
+        text-align: center;
+        
+    }
+    .hyoket{
+        margin-top: 0;
+    }
+    .mt3{
+        margin-top: 1.5rem !important;
+    }
+    .imgPfp{
+        width: 80% !important;
+    }
+    .cntr{
+        text-align: center !important;
+    }
+    .dahafaz{
+        width: 1000%;
+    }
+    .iconumSag{
+        margin-left: 7.5rem;
+    }
+    .cert{
+        margin-top: -2.5rem !important;
+    }
+    #pad{
+        padding-top: 6rem !important;
+        padding-right: 0.25rem !important;
+    }
+    #linkUrl{
+        font-size: 1.8rem !important;
+        padding: 2rem !important;
+    }
+    .fa-youtube{
+        margin-left: -1rem;
+    }
+    .fa-linkedin-in{
+        margin-left: 1rem;
+    }
+    .skills{
+        font-size: 3rem !important;
+    }
+    .navbar{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .countCards{
+        margin-left: 0 !important;
+        margin-top: 1rem !important;
+        background-size: 25% !important;
+    }
+    .enough{
+        margin-top: 0.5rem;
+    }
+    #expBox{
+        padding: 2rem !important;
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+    .exp{
+        height: 6rem !important;
+    }
+    #expBoxDiv{
+        display: block !important;
+    }
+    #expBoxDiv2{
+        display: none !important;
+    }
+    .footerLink{
+        font-size: 0.95rem !important;
+    }
+}
